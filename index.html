@@ -20,6 +20,26 @@
   --shadow: 0 4px 15px rgba(139, 69, 19, 0.15);
 }
 
+          /* LOGO HALAL */
+        .halal-badge {
+            position: fixed;
+            top: 15px;
+            right: 15px;
+            z-index: 999;
+            background: white;
+            padding: 6px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+            text-align: center;
+            font-size: 0.7rem;
+        }
+
+        .halal-badge img {
+            width: 70px;
+            display: block;
+            margin: auto;
+        }
+  
 /* --- RESET & GLOBAL --- */
 * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Poppins', sans-serif; }
 body { background: var(--bg-color); color: var(--text-main); line-height: 1.6; }
@@ -220,6 +240,12 @@ footer {
 
 <body>
 
+  <!-- LOGO HALAL -->
+<div class="halal-badge">
+    <img src="https://upload.wikimedia.org/wikipedia/id/6/68/Logo_Halal_Indonesia_2022.png" alt="Logo Halal">
+    <small>ID33410033394321125</small>
+</div>
+  
 <header>
   <h1>Azmi Products</h1>
   <p>Kue Homemade Premium • Sekali Coba Pasti Repeat Order</p>
@@ -431,6 +457,7 @@ function checkoutWA() {
 </body>
 
 </html>
+
 
 
 
