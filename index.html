@@ -41,6 +41,22 @@
     display: block;
 }
   
+/* ===== MOBILE VERSION ===== */
+@media (max-width: 768px) {
+
+    .halal-badge {
+        top: 8px;
+        right: 8px;
+        padding: 4px 6px;
+        border-radius: 8px;
+    }
+
+    .halal-badge img {
+        width: 38px;   /* khusus HP lebih kecil */
+    }
+
+}
+  
 /* --- RESET & GLOBAL --- */
 * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Poppins', sans-serif; }
 body { background: var(--bg-color); color: var(--text-main); line-height: 1.6; }
@@ -458,6 +474,7 @@ function checkoutWA() {
 </body>
 
 </html>
+
 
 
 
